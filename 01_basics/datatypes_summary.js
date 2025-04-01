@@ -29,3 +29,21 @@ const myFunc=function(){
 }
 
 console.log(typeof myFunc);
+
+// Stack(primitive) Heap(Non-primitive)
+
+let myytname="Sumi"
+let anoname-myytname
+anoname="chaiorcode"
+
+console.log(myytname);
+console.log(anoname);
+
+let userone={
+    email:"sumi@google",
+    upi:"sumi@ybl"
+}
+let user2=userone
+user2.email="user@google"
+console.log(userone.email)
+console.log(user2.email)
